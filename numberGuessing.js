@@ -7,7 +7,7 @@ while (true) {
 
     for (i = 1; i <= tries; i++) {
 
-        input = prompt("Guess the correct integer between 10(incluseive) and 20(exclusive) (3 tries left): ");
+        input = prompt(`Guess the correct integer between 10(incluseive) and 20(exclusive) ${tries+1-i} tries left): `);
 
         if (input == correct_ans) {
             alert('You Win!');
